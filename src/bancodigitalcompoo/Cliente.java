@@ -1,6 +1,8 @@
 
 package bancodigitalcompoo;
 
+import java.time.LocalDate;
+
 public class Cliente {
 protected String nome;
 protected int dataDeNascimento;
