@@ -5,11 +5,11 @@ import java.time.LocalDate;
 
 public class Cliente {
 protected String nome;
-protected int dataDeNascimento;
+protected LocalDate dataDeNascimento;
 protected String endereco;
 protected ContaDigBank conta;
 
-    public Cliente(String nome, Integer dataDeNascimento) {
+    public Cliente(String nome, LocalDate dataDeNascimento) {
         this.nome = nome;
         this.dataDeNascimento = dataDeNascimento;
 

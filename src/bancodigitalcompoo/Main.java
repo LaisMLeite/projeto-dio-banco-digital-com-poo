@@ -1,10 +1,12 @@
 package bancodigitalcompoo;
 
+import java.time.LocalDate;
+
 public class Main {
 
     public static void main(String[] args) {
 
-        Cliente cliente1 = new Cliente("Laís", 12031991);
+        Cliente cliente1 = new Cliente("Laís", LocalDate.of(1991,03,12));
 
         ContaDigBank contaCorrente1 = new ContaCorrente(cliente1);
         ContaDigBank contaPoupanca1 = new ContaPoupanca(cliente1);
